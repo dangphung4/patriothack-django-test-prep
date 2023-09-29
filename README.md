@@ -1,6 +1,6 @@
 # patriothack-django-test-prep
 
-## An introduction to Djanngo as a fullstack application
+## An introduction to Django as a fullstack application
 Can possibly use other technologies as well IE : React, FastAPI, Vue, Jinja, Flask, ETC.
 
 Model: Represents a database table and is used to interact with the table.
