@@ -21,6 +21,7 @@ def edit_task(request, pk):
         return redirect('task_list')
     return render(request, 'tasks/edit_task.html', {'task': task})
 
+#pk is primary key, could be id
 def complete_task(request, pk):
     task = get_object_or_404(Task, pk=pk)
     task.completed = True
