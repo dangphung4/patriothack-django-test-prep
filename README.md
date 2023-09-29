@@ -14,6 +14,7 @@ Migrations: These are files that Django generates to create or change database t
 
 To run locally, clone the repo and enter this into terminal:
 ```bash
+cd todolist
 python3 manage.py runserver
 ```
 
