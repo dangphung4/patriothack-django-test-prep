@@ -4,7 +4,6 @@
 Can possibly use other technologies as well IE : React, FastAPI, Vue, Jinja, Flask, ETC.
 
 Model: Represents a database table and is used to interact with the table.
-
 View: Contains the logic to handle requests and responses. It interacts with models and templates to display data to the user or accept data from the user.    
 Template: An HTML file that displays data. It can incorporate dynamic data, which gets filled in at runtime.     
 URL Dispatcher: Directs web requests to the appropriate view based on the request URL.    
@@ -37,5 +36,5 @@ source ./env/bin/activate # for linux users
 pip install -r requirements.txt
 pip freeze > requirements.txt
 
-deactivate # to exitvirtual enviornment
+deactivate # to exit virtual enviornment
 ```
