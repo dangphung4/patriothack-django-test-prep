@@ -13,9 +13,29 @@ Migrations: These are files that Django generates to create or change database t
 
 
 To run locally, clone the repo and enter this into terminal:
+
+Install depencies with :
+```bash
+pip install -r requirements.txt
+```
+Run migrations using :
 ```bash
 cd todolist
 python3 manage.py runserver
 ```
 
- http://127.0.0.1:8000/
+### Home URL:
+ http://127.0.0.1:8000/tasks/
+
+In order to create & run a virtual environment
+type these into the terminal:
+```bash
+python3 -m venv env
+.\env\Scripts\activate # for windows users
+source ./env/bin/activate # for linux users
+
+pip install -r requirements.txt
+pip freeze > requirements.txt
+
+deactivate # to exitvirtual enviornment
+```
